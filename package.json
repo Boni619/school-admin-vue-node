@@ -1,0 +1,20 @@
+{
+  "name": "school-admin-vue-node",
+  "version": "1.0.0",
+  "description": "A full school administration project with four types of logins (school admin, school teacher, students, parents) using the MEVN stack (MongoDB, Express.js, Vue.js, Node.js) is a comprehensive task, but I can provide you with a high-level outline to get you started. Keep in mind that this is a simplified version, and you can expand and customize it based on your specific requirements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "(cd server; yarn dev;) & (cd frontend; yarn dev)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Boni619/school-admin-vue-node.git"
+  },
+  "author": "Boni Gope",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Boni619/school-admin-vue-node/issues"
+  },
+  "homepage": "https://github.com/Boni619/school-admin-vue-node#readme"
+}
