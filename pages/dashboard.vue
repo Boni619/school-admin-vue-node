@@ -5,7 +5,7 @@
             <div class="nav-bar-header-one">
                 <div class="header-logo">
                     <a href="index.html">
-                        <img src="img/logo.png" alt="logo">
+                        <img :src="require(`~/assets/img/logo.png`)" alt="logo">
                     </a>
                 </div>
                  <div class="toggle-button sidebar-toggle">
@@ -48,7 +48,7 @@
                                 <span>Admin</span>
                             </div>
                             <div class="admin-img">
-                                <img src="img/figure/admin.jpg" alt="Admin">
+                                <img src="" alt="Admin">
                             </div>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right">
@@ -81,7 +81,7 @@
                             <div class="item-content">
                                 <div class="media">
                                     <div class="item-img bg-skyblue author-online">
-                                        <img src="img/figure/student11.png" alt="img">
+                                        <img src="" alt="img">
                                     </div>
                                     <div class="media-body space-sm">
                                         <div class="item-title">
@@ -96,7 +96,7 @@
                                 </div>
                                 <div class="media">
                                     <div class="item-img bg-yellow author-online">
-                                        <img src="img/figure/student12.png" alt="img">
+                                        <img src="" alt="img">
                                     </div>
                                     <div class="media-body space-sm">
                                         <div class="item-title">
@@ -111,7 +111,7 @@
                                 </div>
                                 <div class="media">
                                     <div class="item-img bg-pink">
-                                        <img src="img/figure/student13.png" alt="img">
+                                        <img src="" alt="img">
                                     </div>
                                     <div class="media-body space-sm">
                                         <div class="item-title">
@@ -126,7 +126,7 @@
                                 </div>
                                 <div class="media">
                                     <div class="item-img bg-violet-blue">
-                                        <img src="img/figure/student11.png" alt="img">
+                                        <img src="" alt="img">
                                     </div>
                                     <div class="media-body space-sm">
                                         <div class="item-title">
@@ -205,7 +205,7 @@
             <div class="sidebar-main sidebar-menu-one sidebar-expand-md sidebar-color">
                <div class="mobile-sidebar-header d-md-none">
                     <div class="header-logo">
-                        <a href="index.html"><img src="img/logo1.png" alt="logo"></a>
+                        <a href="index.html"><img src="" alt="logo"></a>
                     </div>
                </div>
                 <div class="sidebar-menu-content">
