@@ -55,7 +55,7 @@ jobs:
           yarn
           yarn build
           cp .env .output/server/.env
-          cp .env server/database/.env
+          cp .env server/.env
           tar -czf "${GITHUB_SHA}".tar.gz .output
           tar -czf "${GITHUB_SHA}"-database.tar.gz -C ./server database
       - name: Store app-artifacts for distribution
