@@ -1,5 +1,7 @@
 generator client {
   provider = "prisma-client-js"
+  binaryTargets   = ["native", "debian-openssl-1.1.x"]
+  previewFeatures = ["fullTextSearch", "fullTextIndex"]
 }
 
 datasource db {
@@ -23,6 +25,7 @@ model users {
   last_name      String           @db.VarChar(255)
   email          String           @unique(map: "email") @db.VarChar(255)
   password       String           @db.VarChar(255)
+  phone_no       String           @db.VarChar(255)
   avatar         String?          @db.VarChar(1000)
   role           roles?           @relation(fields: [role_id], references: [id], onDelete: Cascade)
   role_id        Int

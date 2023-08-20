@@ -3,7 +3,7 @@
         <div class="login-page-content">
             <div class="login-box">
                 <div class="item-logo">
-                    <img src='@/assets/img/logo2.png' alt="logo">
+                    <img src='img/logo2.png' alt="logo">
                 </div>
                 <form action="#" class="login-form">
                     <div class="form-group">
