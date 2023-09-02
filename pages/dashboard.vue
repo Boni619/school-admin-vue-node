@@ -5,7 +5,7 @@
             <div class="nav-bar-header-one">
                 <div class="header-logo">
                     <a href="index.html">
-                        <img src="'img/logo.png'" alt="logo">
+                        <img src="" alt="logo">
                     </a>
                 </div>
                  <div class="toggle-button sidebar-toggle">
